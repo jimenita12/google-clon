@@ -2,3 +2,12 @@ body{
     background-color: aqua;
 
 }
+
+#lupa{
+    color: gray;
+}
+
+.icono{
+    width: 30px;
+    height: 30px;
+}
