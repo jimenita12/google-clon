@@ -1,13 +1,111 @@
 body{
-    background-color: aqua;
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+    font-family: arial,sans-serif
+}
 
+a{
+    color: rgba(0,0,0,.87);
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+header ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+header ul li{
+    margin: 10px;
+}
+
+#foto-perfil{
+    border-radius: 50px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 67vh;
+    justify-content: center;
+}
+
+#caja-buscador{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #dfe1e5;
+    width: 500px;
+    min-height: 44px;
+    max-width: 584px;
+    border-radius: 24px;
+    padding: 5px 8px 0 14px;
+    margin-top: 20px;
+}
+
+#caja-buscador input{
+    width: 400px;
+    outline: none;
+    border: none;
+}
+
+#caja-buscador .icono{
+    margin: 5px;
+}
+
+button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    color: #3c4043;
+    height: 36px;
+    min-width: 54px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover{
+    border: 1px solid #dfe1e5;
+    box-shadow: 0 0 2px 0 #dfe1e5;
 }
 
 #lupa{
     color: gray;
+    cursor:auto;
 }
 
 .icono{
     width: 30px;
     height: 30px;
+}
+
+.icono:hover{
+    cursor: pointer;
+}
+
+footer{
+    background-color: #f2f2f2;
+}
+
+footer ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+footer ul li{
+    margin: 10px;
+}
+
+#opciones{
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid #dadce0;
 }
